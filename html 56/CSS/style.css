@@ -1,0 +1,44 @@
+
+.black-square{
+   transition: all 1s,0.3;
+   width: 250px;
+   height: 250px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: -125px 0 0 -125px;
+   background-color:gray;
+   border-radius: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.black-square:hover{   
+   }
+
+.black-square_inner:hover{
+   color: green;
+   font-size: 20px;
+   }
+
+.black-square_wrap{
+   width: 500px;
+   height: 30px;
+   position: absolute;
+   top: -20%;
+   left: auto;
+   border-radius: 7%;
+   transition: all 1s;
+}
+.black-square_wrap:hover{
+   background-color: #e2cbcb;
+}
+
+.container{
+   background-color:rgb(43, 40, 40);
+   width: 100%;
+   height: 100%;
+}
+
+/*------Не понимаю как привязать хавер ко всем элементам,чтобы при наведении на квадрат срабатывало все вместе. Подумал мб еще 1 обертка нужна или модификатор сделать, но что-то никак не получается. Наверное пока просто механики псевдоклассов не до конца понимаю. */
